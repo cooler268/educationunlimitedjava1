@@ -18,11 +18,11 @@ public class CarUnitTest {
         c.setMake("Honda");
         assertEquals(c.getMake(), "Honda");
     }
-    
+
     @Test
     public void makeGetterTest1() {
         assertEquals(c.getMake(), "Camry", c);
-        
+
     }
 
     public CarUnitTest() {

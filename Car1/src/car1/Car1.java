@@ -2,10 +2,10 @@ package car1;
 
 public class Car1 {
 
-   String make, model, nickname, color;
-   int year, yearsOwned;
-   boolean isOn;
-   double miles;
+    String make, model, nickname, color;
+    int year, yearsOwned;
+    boolean isOn;
+    double miles;
 
     public String getNickname() {
         return nickname;
@@ -22,19 +22,19 @@ public class Car1 {
     public double getMiles() {
         return miles;
     }
-   
-   public Car1(String newMake, String newModel, int newYear, String newNickname, String newColor, int newYearsOwned, double newMiles) {
-       make=newMake;
-       model=newModel;
-       year=newYear;
-       nickname=newNickname;
-       color=newColor;
-       yearsOwned=newYearsOwned;
-       miles=newMiles;
-       isOn = false;
-   }
-   
-       public String getMake() {
+
+    public Car1(String newMake, String newModel, int newYear, String newNickname, String newColor, int newYearsOwned, double newMiles) {
+        make = newMake;
+        model = newModel;
+        year = newYear;
+        nickname = newNickname;
+        color = newColor;
+        yearsOwned = newYearsOwned;
+        miles = newMiles;
+        isOn = false;
+    }
+
+    public String getMake() {
         return make;
     }
 
@@ -57,20 +57,19 @@ public class Car1 {
     public void setYear(int year) {
         this.year = year;
     }
-   
+
     public void turnOn() {
-        isOn=true;
+        isOn = true;
         System.out.println("The car is now on!");
     }
-   
+
     public void turnOff() {
-        if (isOn==true) {
-            isOn=false;
+        if (isOn == true) {
+            isOn = false;
             System.out.println("The car is now off!");
-        } 
-        else {
+        } else {
             System.out.println("The car is already off!");
         }
-       
+
     }
 }
