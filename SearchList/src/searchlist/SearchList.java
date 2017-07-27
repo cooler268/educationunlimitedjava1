@@ -19,8 +19,11 @@ public class SearchList {
         boolean found = false;
         if (a1.contains(39)){
             System.out.println("Done");
+            
         }
-        
+        for(int a : a1) {
+            if ()
+        }
                 
     }
     
