@@ -16,7 +16,6 @@ public class ChooseYourOwnAdventure {
                 int room2 = Integer.parseInt(keyboard.nextLine());
                 if (room2 == 5) {
                     System.out.println("Finished");
-
                 } else {
                     System.out.println("Complete");
                 }
@@ -37,10 +36,8 @@ public class ChooseYourOwnAdventure {
                 int room5 = Integer.parseInt(keyboard.nextLine());
                 if (room5 == 5) {
                     System.out.println("Complete");
-
                 } else {
                     System.out.println("End");
-
                 }
             } else {
                 System.out.println("Proceed to Room 5 or Room 6?");
