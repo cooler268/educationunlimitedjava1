@@ -1,21 +1,57 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package challengeprojectsadventure;
 
-/**
- *
- * @author Education Unlimited
- */
+import java.util.Scanner;
+
 public class ChallengeProjectsAdventure {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Proceed to Room 1 or Room 2?");
+        int room = Integer.parseInt(keyboard.nextLine());
+        if (room == 1) {
+            System.out.println("Proceed to Room 3 or Room 4?");
+            int room1 = Integer.parseInt(keyboard.nextLine());
+            if (room1 == 3) {
+                System.out.println("Proceed to Room 5 or Room 6?");
+                int room2 = Integer.parseInt(keyboard.nextLine());
+                if (room2 == 5) {
+                    System.out.println("Finished");
+
+                } else {
+                    System.out.println("Complete");
+                }
+            } else {
+                System.out.println("Proceed to Room 5 or Room 6?");
+                int room3 = Integer.parseInt(keyboard.nextLine());
+                if (room3 == 5) {
+                    System.out.println("Done");
+                } else {
+                    System.out.println("Finished");
+                }
+            }
+        } else {
+            System.out.println("Procced to Room 3 or Room 4?");
+            int room4 = Integer.parseInt(keyboard.nextLine());
+            if (room4 == 3) {
+                System.out.println("Proceed to Room 5 or Room 6?");
+                int room5 = Integer.parseInt(keyboard.nextLine());
+                if (room5 == 5) {
+                    System.out.println("Complete");
+
+                } else {
+                    System.out.println("End");
+
+                }
+            } else {
+                System.out.println("Proceed to Room 5 or Room 6?");
+                int room5 = Integer.parseInt(keyboard.nextLine());
+                if (room5 == 5) {
+                    System.out.println("End");
+                } else {
+                    System.out.println("Done");
+                }
+            }
+        }
+
     }
-    
 }
