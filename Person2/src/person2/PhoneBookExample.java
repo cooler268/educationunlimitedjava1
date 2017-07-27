@@ -16,10 +16,10 @@ public class PhoneBookExample {
      */
     public static void main(String[] args) {
        Person2 P1 = new Person2("Alix", "Feinsod", "5105555555");
-       Person2 P2 = new Person2("Alix", "Feinsod", "5105555555");
-       Person2 P3 = new Person2("Alix", "Feinsod", "5105555555");
-       Person2 P4 = new Person2("Alix", "Feinsod", "5105555555");
-       Person2 P5 = new Person2("Alix", "Feinsod", "5105555555");
+       Person2 P2 = new Person2("Aaron", "Wofford", "2014385664");
+       Person2 P3 = new Person2("Darrel", "Sanders", "3128059839");
+       Person2 P4 = new Person2("Jody", "Barnes", "2345678907");
+       Person2 P5 = new Person2("Jesse", "Rauscher", "8318542948");
        PhoneBook PB = new PhoneBook();
        PB.addPerson(P1);
        PB.addPerson(P2);

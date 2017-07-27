@@ -1,8 +1,8 @@
-package challengeprojectsadventure;
+package ChooseYourOwnAdventure;
 
 import java.util.Scanner;
 
-public class ChallengeProjectsAdventure {
+public class ChooseYourOwnAdventure {
 
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
