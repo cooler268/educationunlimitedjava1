@@ -16,7 +16,9 @@ public class HighOrLow {
         } else {
             System.out.println("You are too high");
         }
+    } if (guess != a) {
+        
+        }
     }
     }
     
-}
