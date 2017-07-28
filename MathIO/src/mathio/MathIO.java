@@ -25,13 +25,12 @@ public class MathIO {
         //Part 2
         try (BufferedReader reader = new BufferedReader(new FileReader(FILENAME))) {
 
-            
             String l = reader.readLine();
             double sum = 0;
             while (l != null) {
                 double currentLine = Double.parseDouble(l);
-                sum+=currentLine;
-                 l = reader.readLine();
+                sum += currentLine;
+                l = reader.readLine();
             }
             System.out.println(sum);
         } catch (IOException e) {
